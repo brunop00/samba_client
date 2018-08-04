@@ -1,0 +1,21 @@
+body {
+    background: #f5f5f5;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.471;
+  }
+body .container {
+    background: #F7F7F7;
+  }
+.x_content {
+    padding: 0 5px 6px;
+    float: left;
+    clear: both;
+    margin-top: 5px
+  }
+
+.icons {
+    font-size: 30px;
+    font-weight: 600;
+}
