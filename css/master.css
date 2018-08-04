@@ -22,5 +22,7 @@ body .container {
 }
 
 #row_js {
-  border: 1px solid #D9DEE4;
+  border: 1px solid #28a745;
+  margin: 1px;
+  padding: 1px;
 }
