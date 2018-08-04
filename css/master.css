@@ -18,4 +18,9 @@ body .container {
 .icons {
     font-size: 30px;
     font-weight: 600;
+    color: #28a745;
+}
+
+#row_js {
+  border: 1px solid #D9DEE4;
 }
