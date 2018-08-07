@@ -1,4 +1,16 @@
+
+html,
 body {
+  height: 70%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background: #f5f5f5;
     padding: 20px;
     font-size: 13px;
@@ -6,10 +18,14 @@ body {
     line-height: 1.471;
   }
 body .container {
+    margin-top: 5rem;
     background: #F7F7F7;
   }
+
+
+ 
 .x_content {
-    padding: 0 5px 6px;
+    padding: 50 5px 6px;
     float: left;
     clear: both;
     margin-top: 5px
@@ -24,5 +40,25 @@ body .container {
 #row_js {
   border: 1px solid #28a745;
   margin: 1px;
-  padding: 1px;
+  padding-top: 20px;
+  padding: 10px;
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+}
+.dark-blue-text {
+  color:#28a745;
+}
+.dark-pink-text {
+  color: #AC003A;
+}
+.dark-amber-text {
+  color: #ff6f00;
+}
+.dark-teal-text {
+  color: #004d40;
 }

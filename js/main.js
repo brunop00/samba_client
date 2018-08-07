@@ -8,6 +8,66 @@ const file_dir_json = [
     {
         type: "folder",
         name: "pasta1"
+    },
+    {
+        type: "file",
+        name: "arquivo1.txt"
+    },
+    {
+        type: "folder",
+        name: "pasta1"
+    },
+    {
+        type: "file",
+        name: "arquivo1ahusaijsasaijsauihsiuahsuashuahsuahsuahsuahsuahauhsuahsuahsuahsuahsuahsuahushauha.txt"
+    },
+    {
+        type: "folder",
+        name: "pasta1"
+    },
+    {
+        type: "file",
+        name: "arquivo1.txt"
+    },
+    {
+        type: "folder",
+        name: "pasta1"
+    },
+    {
+        type: "file",
+        name: "arquivo1.txt"
+    },
+    {
+        type: "folder",
+        name: "pasta1"
+    },
+    {
+        type: "file",
+        name: "arquivo1.txt"
+    },
+    {
+        type: "folder",
+        name: "pasta1"
+    },
+    {
+        type: "file",
+        name: "arquivo1.txt"
+    },
+    {
+        type: "folder",
+        name: "pasta1"
+    },
+    {
+        type: "file",
+        name: "arquivo1.txt"
+    },
+    {
+        type: "folder",
+        name: "pasta1"
+    },
+    {
+        type: "file",
+        name: "arquivo1.txt"
     }
 ]
 
@@ -19,6 +79,7 @@ for(let fl of file_dir_json){
                                     <div class="cardbody text-center x_content">
                                         <i class="fas fa-file icons"></i>
                                         <div class="text-center">${fl.name}</div>
+                                        <div class="text-center"> Conteúdo do arquivo </div>
                                     </div>
                                 </div>
                             </div>`    
@@ -28,6 +89,7 @@ for(let fl of file_dir_json){
                                             <div class="cardbody text-center x_content">
                                                 <i class="fas fa-folder icons"></i>
                                                 <div class="text-center">${fl.name}</div>
+                                                <div class="text-center"> Conteúdo da pasta </div>
                                             </div>
                                         </div>
                                     </div>`
