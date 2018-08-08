@@ -1,7 +1,7 @@
 <?php
 
 $files = [];
-$filesString = `smbclient //192.168.1.2/vagrant -U vagrant%abc123 -c ls -h`;
+$filesString = `smbclient //192.168.1.2/vagrant -U vagrant%vagrant -c ls`;
 
 $regex = '/\s+(.+)\s+(\S+)\s+(\S+)\s+(\S+)\s+(\S+)\s+ (\S+)\s+(\S+)\s+(\S+)\n/';
 preg_match_all($regex, $filesString, $matches);

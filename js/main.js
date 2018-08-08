@@ -28,7 +28,7 @@ function filesView(file_dir_json) {
                                 <div class="cardbody text-center x_content">
                                     <i class="fas fa-file icons"></i>
                                     <div class="text-center">${file.name}</div>
-                                    <div class="text-center">${file.type}</div>
+                                    <div class="text-center">${formatSizeUnits(file.size)}</div>
                                 </div>
                             </div>
                         </div>`
@@ -38,7 +38,7 @@ function filesView(file_dir_json) {
                                 <div class="cardbody text-center x_content">
                                     <i class="fas fa-folder icons"></i>
                                     <div class="text-center">${file.name}</div>
-                                    <div class="text-center">${file.type}</div>
+                                    <div class="text-center">${formatSizeUnits(file.size)}</div>
                                 </div>
                             </div>
                         </div>`

@@ -9,6 +9,7 @@ Vagrant.configure(2) do |config|
     smbserver.vm.network "private_network", ip: "192.168.1.2", virtualbox__intnet: "LanVagrant"
     smbserver.vm.provider "virtualbox" do |vb|
       vb.name = "smbserver"
+      vb.memory = 512
     end
     smbserver.vm.provision "shell", path: "install/smbserver.sh"
   end
@@ -21,6 +22,7 @@ Vagrant.configure(2) do |config|
     smbclient.vm.synced_folder ".", "/var/www/html"
     smbclient.vm.provider "virtualbox" do |vb|
       vb.name = "smbclient"
+      vb.memory = 512
     end
       smbclient.vm.provision "shell", path: "install/smbclient.sh"
   end
